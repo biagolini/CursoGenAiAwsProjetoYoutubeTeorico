@@ -1,0 +1,20 @@
+AWS Bedrock
+
+AWS Bedrock é um serviço gerenciado que oferece acesso a modelos de IA generativa através de uma API unificada.
+
+Principais funcionalidades:
+- Acesso a múltiplos modelos fundacionais (Claude, Llama, Nova, etc)
+- API Converse para interações padronizadas
+- Suporte a diferentes modalidades (texto, imagem, vídeo)
+- Processamento de documentos (PDF, TXT, MD, etc)
+- Integração com Amazon S3 para documentos grandes
+- Guardrails para segurança e conformidade
+- Prompt Management para versionamento de prompts
+
+O AWS Bedrock permite que desenvolvedores construam aplicações de IA generativa de forma rápida e escalável, sem precisar gerenciar infraestrutura de modelos.
+
+Casos de uso comuns:
+- Chatbots e assistentes virtuais
+- Análise e resumo de documentos
+- Geração de conteúdo
+- Extração de informações estruturadas
