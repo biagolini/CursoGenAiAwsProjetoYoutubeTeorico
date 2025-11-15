@@ -49,7 +49,23 @@ Com a capacidade de filtrar apenas países de um continente específico.
    - **Max Tokens:** 1000
 
 6. **Inserir o Prompt:**
-   - Cole o conteúdo do arquivo `prompt_tourism_extraction.txt` na área de texto do prompt
+   - Cole o conteúdo abaixo na área de texto do prompt:
+
+```
+Analyze the attached document about tourism destinations around the world.
+
+Extract information ONLY about countries from {{continent}}.
+
+For each country from {{continent}}, extract:
+- Country name
+- Population (as absolute integer number, e.g., 67000000 for 67 million)
+- Capital city
+- Main tourist attractions
+
+IMPORTANT: Only include countries that are explicitly mentioned as being in {{continent}}. Ignore all other countries from different continents.
+
+Use the extract_tourism_data tool to return the structured information.
+```
 
 7. **Configurar Tool (JSON Schema):**
    - Na seção "Tools", clique em "Add tool"
